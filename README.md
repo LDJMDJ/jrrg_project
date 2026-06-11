@@ -12,7 +12,6 @@ jrrg_project/
 ├── data/                # 数据库、图片资源、数据目录说明与实验输出预留目录
 ├── frontend/            # Streamlit 前端入口
 ├── init_db.py           # 数据库初始化与真实历史数据拉取
-├── prepare_logo.py      # Logo 预处理脚本
 ├── requirements.txt     # 依赖列表
 └── README.md            # 项目说明与复现指南
 ```
@@ -37,21 +36,11 @@ pip install -r requirements.txt
 
 ## 测试与运行
 
-1. 初始化数据库
-2. 运行自动化测试
-3. 启动前端页面
+1. 运行自动化测试
+2. 启动前端页面
 
-### 1. 初始化数据库(已经存在，无需重复执行)
 
-初始化数据库并拉取历史数据(爬取以太坊历史gas单价，需要科学上网)：
-
-```bash
-python data/init_db.py
-```
-
-这一步会生成或重建数据库文件(已经存在，无需重复执行)：
-
-### 2. 自动化测试
+### 1. 自动化测试
 
 运行测试命令：
 
@@ -62,7 +51,7 @@ python -m pytest -q
 如果终端看到类似下面的结果，说明当前核心逻辑测试通过：
 
 ```text
-7 passed
+20 passed
 ```
 
 项目中的 `tests/` 目录覆盖了三类课程要求中的关键验证目标：
@@ -89,7 +78,7 @@ python -m pytest -q
   - `test_multi_arbitrage_thresholds_support_comparative_analysis`
   - `test_auto_compound_compound_ratio_comparison`
 
-### 3. 启动前端页面
+### 2. 启动前端页面
 
 启动前端页面：
 
