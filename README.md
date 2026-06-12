@@ -13,6 +13,7 @@ jrrg_project/
 ├── frontend/            # Streamlit 前端入口，可视化展示
 ├── init_db.py           # 数据库初始化与真实历史数据拉取
 ├── requirements.txt     # 依赖列表
+├── Demo.txt             # 可执行Demo（引导简化版）
 └── README.md            # 项目说明与复现指南
 ```
 
