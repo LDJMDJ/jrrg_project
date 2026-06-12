@@ -29,7 +29,7 @@ class BacktestResult:
     max_drawdown: float
     trade_count: int
     win_rate: float
-    gross_profit: float
+    gross_profit: Decimal
     total_gas_cost: int
-    net_profit: float
-    final_equity: float
+    net_profit: Decimal
+    final_equity: Decimal
