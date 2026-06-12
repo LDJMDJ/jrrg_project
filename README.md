@@ -10,7 +10,7 @@ jrrg_project/
 ├── simulator/           # 仿真引擎入口
 ├── tests/               # 单元测试与集成测试
 ├── data/                # 数据库、图片资源、数据目录说明与实验输出预留目录
-├── frontend/            # Streamlit 前端入口
+├── frontend/            # Streamlit 前端入口，可视化展示
 ├── init_db.py           # 数据库初始化与真实历史数据拉取
 ├── requirements.txt     # 依赖列表
 └── README.md            # 项目说明与复现指南
